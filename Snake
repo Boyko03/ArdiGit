@@ -1,0 +1,103 @@
+#include<TFT.h>
+#include<SPI.h>
+#define CS  10
+#define DC  9
+#define RESET 8
+byte yb = 0;
+byte gb = 0;
+byte rb = 0;
+byte bb = 0;
+byte x[800];
+byte y[800];
+int appleX = random(161);
+int appleY = random(113);
+int mX = 0;
+int mY = 0;
+int lenght = 20;
+int val = 0;
+int result = 0;
+float SnakeSpeed = 1;
+TFT screen = TFT(CS, DC, RESET);
+void setup() {
+  screen.begin();
+  screen.background(0, 0, 0);
+  pinMode(2, INPUT_PULLUP);
+  pinMode(3, INPUT_PULLUP);
+  pinMode(5, INPUT_PULLUP);
+  pinMode(6, INPUT_PULLUP);
+  x[0] = 20;
+  y[0] = 20;
+}
+
+void loop() {
+  val = analogRead(A0);
+  yb = digitalRead(2);
+  gb = digitalRead(3);
+  rb = digitalRead(5);
+  bb = digitalRead(6);
+  if(y[0] < 5){
+    y[0] = 128;
+  }
+  if(y[0] > 133){
+    y[0] = 5;  
+  }
+  if(x[0] < 5){
+    x[0] = 160;
+  }
+  if(x[0] > 165){
+    x[0] = 5;
+  }
+  if(SnakeSpeed > 0){
+    if(yb == LOW && mX != -SnakeSpeed){
+      mX = SnakeSpeed;
+      mY = 0;
+    }
+    if(gb == LOW && mX != SnakeSpeed){
+      mX = -SnakeSpeed;
+      mY = 0;
+    }
+    if(rb == LOW && mY != -SnakeSpeed){
+      mY = SnakeSpeed;
+      mX = 0;
+    }
+    if(bb == LOW && mY != SnakeSpeed){
+      mY = -SnakeSpeed;
+      mX = 0;
+    }
+    screen.fill(0, 255, 0);
+    screen.rect(appleX, appleY, 5, 5);
+    for(int i = lenght; i >= 1; i--){
+      x[i] = x[i-1];
+      y[i] = y[i-1]; 
+      screen.fill(255, 255, 255);
+      screen.rect(x[i], y[i], 5, 5);
+    }
+    screen.fill(0, 0, 0);
+    screen.rect(x[lenght], y[lenght], 5, 5);
+    x[0] = x[0] + mX;
+    y[0] = y[0] + mY;
+    if(x[0]+5>appleX && x[0]<appleX+5 && y[0]+5>appleY && y[0]<appleY+5){
+      screen.fill(0, 0, 0);
+      screen.rect(appleX, appleY, 8, 8);
+      appleX = random(161);
+      appleY = random(113); 
+      lenght = lenght + 10;
+      result = result + 1;
+      SnakeSpeed = SnakeSpeed + 0.2;
+    }else{
+      for(int i=lenght;i>=10;i--){
+        if(x[0]+5>x[i] && x[0]<x[i]+5 && y[0]+5>y[i] && y[0]<y[i]+5 && SnakeSpeed > 1){
+          SnakeSpeed = 0;
+          mX=0;
+          mY=0;
+        }
+      }  
+    } 
+  }
+  if(SnakeSpeed == 0){
+    screen.fill(255, 0, 0);
+    screen.rect(0, 0, 160, 128);
+  }
+  delay(val/10);
+  return mX, mY, appleX, appleY, lenght;
+}
