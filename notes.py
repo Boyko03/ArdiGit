@@ -51,5 +51,8 @@ array_format(array_notes)
 with open('file.json', 'w') as file:
 	file.write(json.dumps(array_notes))
 	
-time.sleep(len(array_notes))
+if len(array_notes) < 5:
+    time.sleep(len(array_notes))
+else:
+    time.sleep(5)
 sys.exit()
