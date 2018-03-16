@@ -1,5 +1,3 @@
 # ArdiGit
 
-#Python файловете са прототипни
-
-Да се четат Arduino файловете
+Ще използваме Raspberry Pi 3 model B и Python
