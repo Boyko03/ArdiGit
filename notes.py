@@ -43,6 +43,8 @@ if text == "quit" or text == "q":
     array_format(array_notes)
     time.sleep(2)
     sys.exit()
+elif text == "search" or text == "s":
+    search(text, array_notes)
 else:
     array_notes.append(text)
 
