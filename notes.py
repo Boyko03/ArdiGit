@@ -1,6 +1,15 @@
 import sys
 import time
 import json
+import os
+
+array_notes = []
+
+if os.stat("file.json").st_size != 0:
+    yesNo = input("You have already made some notes. Do you want to continue writting? Yes/No: ")
+    if yesNo == "yes":
+        with open('file.json') as file:
+            array_notes = json.loads(file.read())
 
 def array_format(array):
     for i in range(len(array)):
@@ -26,9 +35,9 @@ def search(text, array):
         print("The object was not found. ")
 
 
-print("Hello! This is your note sheet. You can add your notes here. \n If you type 'q' or 'quit' you will exit the program \n \
-and if you type 's' or 'search' you can find your notes by a keyword.")   
-array_notes = []
+print("\n Hello! This is your note sheet. You can add your notes here. \n If you type 'q' or 'quit' you will exit the program \n \
+and if you type 's' or 'search' you can find your notes by a keyword. \n")   
+
 text = input()
 if text == "quit" or text == "q":
     array_format(array_notes)
@@ -51,8 +60,5 @@ array_format(array_notes)
 with open('file.json', 'w') as file:
 	file.write(json.dumps(array_notes))
 	
-if len(array_notes) < 5:
-    time.sleep(len(array_notes))
-else:
-    time.sleep(5)
+time.sleep(5)
 sys.exit()
