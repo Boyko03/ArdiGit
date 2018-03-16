@@ -1,5 +1,6 @@
-import sys
+iimport sys
 import time
+import json
 
 def array_format(array):
     for i in range(len(array)):
@@ -46,5 +47,9 @@ while text != "quit" or text != "q":
         array_notes.append(text)   
 
 array_format(array_notes)
+
+with open('file.json', 'w') as file:
+	file.write(json.dumps(array_notes))
+	
 time.sleep(len(array_notes))
 sys.exit()
