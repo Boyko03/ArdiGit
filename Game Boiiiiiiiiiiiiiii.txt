@@ -1,0 +1,41 @@
+A (not so) brief history of the Game Boy family
+
+Nintendo's Game Boy handheld was first released in 1989. The gaming device was the brainchild of long-time Nintendo employee Gunpei Yokoi. Yokoi was also responsible for the Game & Watch series of handhelds when Nintendo made the move from toys to video games.
+
+When Yokoi designed the original Game Boy, he knew that to be successful, the system needed to be small, light, inexpensive, and durable, as well as have a varied, recognizable library of games upon its release. By following this simple mantra, the Game Boy line managed to gain a vast following despite technically superior alternatives which would have color graphics instead. 
+
+Game Boy continues its success to this day and many at Nintendo have dedicated the handheld in Yokoi's memory. Game Boy celebrated its 15th anniversary in 2004, which nearly coincided with the 20-year anniversary of the original Nintendo Entertainment System (NES). To celebrate, Nintendo released the Classic NES Series and an NES controller-themed color scheme for the Game Boy Advance SP.
+
+Game Boy family
+
+Game Boy
+The original gray Game Boy was first released in Japan on April 21, 1989. Based on a Z80 processor, it has a black and green reflective LCD screen, an eight-way directional pad, two action buttons (A and B), and Start and Select buttons with the controls being identical to the NES controller. It plays games from ROM-based media contained in cartridges. Its graphics are 8-bit.
+
+The game that pushed the Game Boy into the upper reaches of success was Tetris. Tetris was widely popular, and on the handheld format could be played anywhere. It came packaged with the Game Boy, and broadened its reach; adults and children alike were buying Game Boys in order to play Tetris. Releasing Tetris on the Game Boy was selected as #4 on GameSpy's "25 Smartest Moments in Gaming".
+
+The original Game Boy was one of the first cartridge-based systems that supported more than four players at one time (via the link port). In fact, it has been shown that the system could support 16 simultaneous players. However, this feature was only supported in Faceball 2000.
+
+In 1995, the "Play it Loud" version of the original Game Boy was released in five different colors; red, yellow, green, black and clear.
+
+Game Boy Pocket
+The Game Boy Pocket is a redesigned version of the original Game Boy having the same features. It was released in 1996. Notably, this variation is smaller and lighter. It comes in seven different colors; red, yellow, green, black, clear, silver, blue, and pink.
+
+Another notable improvement over the original Game Boy is a black-and-white display screen, rather than the green-tinted display of the original Game Boy, that also featured improved response time for less blurring during motion. The Game Boy Pocket takes two AAA batteries as opposed to four AA batteries for roughly ten hours of gameplay. The first model of the Game Boy Pocket did not have an LED to show battery levels, but the feature was added due to public demand.
+
+Game Boy Light
+In April 1998, a variant of the Game Boy Pocket named Game Boy Light was exclusively released in Japan. The differences between the original Game Boy Pocket and the Game Boy Light is that the Game Boy Light takes on two AA batteries rather than two AAA batteries and has an electroluminescent screen that can be turned on or off. This electroluminescent screen allowed the use of it in darkened areas. The Game Boy Light was superseded by the Game Boy Color six months later.
+
+Game Boy Color
+First released in Japan on October 21, 1998, the Game Boy Color (abbreviated as GBC) added a (slightly smaller) color screen to a form factor similar in size to the Game Boy Pocket. It also has double the processor speed, three times as much memory, and an infrared communications port. Technologically, it was likened to the 8-bit NES video game console from the 1980s although the Game Boy Color has a much larger color palette (56 simultaneous colors out of 32,768 possible) which had some classical NES ports and newer titles. It comes in seven different colors; Clear purple, purple, red, blue, green, yellow and silver for the Pokemon edition. Like the Game Boy Light, the Game Boy Color takes on two AA batteries. It was the final handheld to have 8-bit graphics.
+
+A major component of the Game Boy Color is its near-universal backward compatibility; that is, a Game Boy Color is able to read older Game Boy cartridges and even play them in a selectable color palette (similar to the Super Game Boy). The only black & white Game Boy games known to be incompatible are Road Rash and Joshua & the Battle of Jericho. Backwards compatibility became a major feature of the Game Boy line, since it allowed each new launch to begin with a significantly larger library than any of its competitors. Some games written specifically for the Game Boy Color can be played on older model Game Boys, whereas others cannot.
+
+
+Game Boy Advance
+In Japan, on March 21, 2001, Nintendo released a significant upgrade to the Game Boy line. The Game Boy Advance (also referred to as GBA) featured a 32 bit 16.8 MHz ARM. It included a Z80 processor and a switch activated by inserting a Game Boy or Game Boy Color game into the slot for backward compatibility, and had a larger, higher resolution screen. Controls were slightly modified with the addition of "L" and "R" shoulder buttons. Like the Game Boy Light and Game Boy Color, the Game Boy Advance takes on two AA batteries. The system was technically likened to the SNES and showed its power with successful ports of SNES titles. There were also new titles that could be found only on the GBA. A widely criticized drawback of the Game Boy Advance is that the screen is not backlit, making viewing difficult in some conditions. The Game Paks for the GBA are roughly half the length of original Game Boy cartridges and Game Boy Color cartridges, and so older Game Paks would stick out of the top of the unit. When playing older games, the GBA provides the option to play the game at the standard equal square resolution of the original screen or the option to stretch it over the wider GBA screen. The selectable color palettes for the original Game Boy games are identical to what it was on the Game Boy Color. It was the final handheld to require regular batteries.
+
+Game Boy Advance SP
+First released in Japan on February 14, 2003, the Game Boy Advance SP—Nintendo model AGS-001—resolved several problems with the original Game Boy Advance model. It featured a new smaller clamshell design with a flip-up screen, a switchable internal frontlight, a rechargeable battery for the first time, and the only notable issue is the omission of the headphone jack, which requires a special adapter, purchased separately. In some regions, owners of the original Game Boy Advance received a special limited offer to trade their old models into Nintendo and merely pay the difference on the Game Boy Advance SP.[citation needed] In September 2005, Nintendo released the Game Boy Advance SP model AGS-101, that featured a high quality backlit screen instead of a frontlit, similar to the Game Boy Micro screen but larger. It was the final Game Boy and last handheld to have backwards compatibility with Game Boy and Game Boy Color games.
+
+Game Boy Micro
+The third form of Game Boy Advance system, the Game Boy Micro is four and a half inches wide (10 cm), two inches tall (5 cm), and weighs 2.8 ounces (80g). By far the smallest Game Boy created, it has approximately the same dimensions as an original NES controller pad. Its screen is approximately 2/3 the size of the SP and GBA screens while maintaining the same resolution (240×160 pixels) but now has a higher quality backlit display with adjustable brightness. Included with the system are two additional faceplates which can be swapped to give the system a new look. Unlike the Game Boy Advance and Game Boy Advance SP, the Game Boy Micro is unable to play any original Game Boy or Game Boy Color games, only playing Game Boy Advance titles.
