@@ -1,4 +1,5 @@
-print("Osborne 1 \n \
+def run():
+    print("Osborne 1 \n \
 The Osborne 1 was the first \n \
 commercially successful \n \
 portable microcomputer, \n \
