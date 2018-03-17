@@ -1,48 +1,32 @@
-print("История \n \
-Технологично училище \n \
-“Електронни системи” \n \
-към Технически \n \
-университет – София \n \
-(ТУЕС) е създадено през \n \
-1988 г. като част от \n \
-структурата на \n \
-Техническия \n \
-университет – София. \n \
-\n \
-Училището \n \
-представлява резултат \n \
-от реализирането на \n \
-една много мащабна и \n \
-положителна идея от \n \
-страна на големите в \n \
-областта на \n \
-информационните и \n \
-комуникационните \n \
-технологии \n \
-предприятия, научни \n \
-организации и \n \
-обединения. Целта е \n \
-била да се създаде \n \
-средно учебно \n \
-заведение, което да \n \
-подготвя кадри със \n \
-средно образование в \n \
-областта на \n \
-компютърните науки и \n \
-информационните \n \
-технологии. \n \
-\n \
-За изминалите 29 години \n \
-училището е подготвило \n \
-24 випуска млади \n \
-специалисти, голяма \n \
-част от които са \n \
-намерили \n \
-професионална \n \
-реализация и са на \n \
-водещи позиции в \n \
-развитието на \n \
-информационните и \n \
-комуникационните \n \
-технологии в България.")
-
+def run():
+    print("History \n\
+Technological school \n\
+'Electronic Systems' to \n\
+Technical University of Sofia \n\
+(TUES) was established in 1988. \n\
+as part of the structure of \n\
+Technical University of Sofia. \n\
+The school represents a result \n\
+by realizing a lot of \n\
+scale and positive idea from \n\
+side of the big \n\
+information and \n\
+communication technologies \n\
+enterprises scientific \n\
+organizations and unions. \n\
+The goal was to create \n\
+a secondary school that \n\
+to prepare frames with an average \n\
+education in the field of \n\
+computer science and \n\
+information technology. \n\
+For the past 29 years \n\
+the school has prepared 24 \n\
+young specialists, \n\
+many of whom have found \n\
+professional conversion and are \n\
+leading positions in development \n\
+of information and \n\
+communication technologies in \n\
+Bulgaria. \
+")
