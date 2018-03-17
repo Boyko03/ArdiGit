@@ -8,8 +8,7 @@ def write():
 Press '2' to view BASIC's history. \n\
 Press '3' to view TUES' history. \n\
 Press '4' to view Game Boy's history. \n\
-Press '5' to type your notes. \n\
-Press '6' to exit.")
+Press '5' to type your notes. \n")
 
 
 def again(i, a):
@@ -25,7 +24,7 @@ def run():
         i = again(i, a)
     else:
         if i == '1':
-            a = open("Osborne1Article.txt", 'r')
+            a = open("Osborn 1.txt", 'r')
             print(a.read(), '\n')
             write()
         elif i == '2':
