@@ -1,0 +1,112 @@
+BASIC - Beginner's All-purpose Symbolic Instruction
+Code
+Origin
+The original BASIC language was released on May 1, 1964 by John G. Kemeny and
+Thomas E. Kurtz and implemented under their direction by a team of Dartmouth
+College students.
+The acronym BASIC comes from the name of
+BASIC was designed to allow students to
+the Dartmouth Time-Sharing System. It
+technical
+
+an unpublished paper by Thomas Kurtz.
+write mainframe computer programs for
+was intended specifically for less
+users.
+
+The language was based on FORTRAN II, with some influences from ALGOL 60 and
+with additions to make it suitable for timesharing. Initially, BASIC
+concentrated on supporting straightforward mathematical work with character
+string functionality being added by 1965. Wanting use of the language to become
+widespread, its designers made the compiler available free of charge. In the
+following years, as other dialects of BASIC appeared, Kemeny and Kurtz's
+original BASIC dialect became known as Dartmouth BASIC.
+Spread on minicomputers
+Knowledge of the relatively simple BASIC became widespread for a computer
+language, and it was implemented by a number of manufacturers, becoming fairly
+popular on newer minicomputers* such as the DEC PDP series. A version was a core
+part of the Pick operating system from 1973 onward, where a compiler renders it
+into bytecode, able to be interpreted by a virtual machine.
+During this period a number of simple computer games were written in BASIC, most
+notably Mike Mayfield's Star Trek. A number of these were collected by DEC
+employee David H. Ahl and published in a newsletter he compiled. He later
+collected a number of these into book form, 101 BASIC Computer Games, published
+in 1973 During the same period, Ahl was involved in the creation of a small
+computer for education use, an early personal computer. When management refused
+to support the concept, Ahl left DEC in 1974 to found the seminal computer
+magazine, Creative Computing. The book remained popular, and was re-published on
+several occasions.
+MSX BASIC version 3.0
+The introduction of the first microcomputers in the mid-1970s was the start of
+explosive growth for BASIC. It had the advantage that it was fairly well known
+to the young designers and computer hobbyists who took an interest in
+microcomputers. Despite Dijkstra's famous judgement in 1975, "It is practically
+impossible to teach good programming to students that have had a prior exposure
+to BASIC: as potential programmers they are mentally mutilated beyond hope of
+regeneration", BASIC was one of the few languages that was both high-level
+enough to be usable by those without training and small enough to fit into the
+microcomputers of the day, making it the de facto standard programming language
+on early microcomputers.
+One of the first BASICs to appear was Tiny BASIC, a simple BASIC variant
+designed by Dennis Allison at the urging of Bob Albrecht of the Homebrew
+Computer Club. How to design and implement a stripped-down version of an
+interpreter for the BASIC language was covered in articles by Allison in the
+first three quarterly issues of the People's Computer Company newsletter
+published in 1975 and implementations with source code published in Dr. Dobb's
+Journal of Tiny BASIC Calisthenics & Orthodontia: Running Light Without
+Overbyte.
+Almost universally, home computers of the 1980s had a ROM-resident BASIC
+interpreter, which the machines booted directly into. When the Apple II, PET
+2001, and TRS-80 were all released in 1977, all three had BASIC as their primary
+
+programming language and operating environment. Upon boot, a BASIC interpreter
+in immediate mode was presented, not the command-line interface used on systems
+running CP/M or MS-DOS. Commodore Business Machines included a version of
+Microsoft BASIC. The Apple II and TRS-80 each had two versions of BASIC, a
+smaller introductory version introduced with the initial releases of the
+machines and a more advanced version developed as interest in the platforms
+increased. As new companies entered the field, additional versions were added
+that subtly changed the BASIC family.
+As the popularity of BASIC grew in this period, computer magazines published
+complete source code in BASIC for video games, utilities, and other programs.
+Given BASIC's straightforward nature, it was a simple matter to type in the code
+from the magazine and execute the program. Different magazines were published
+featuring programs for specific computers, though some BASIC programs were
+considered universal and could be used in machines running any variant of BASIC
+(sometimes with minor adaptations). Many books of type-in programs were also
+available, and in particular, Ahl published versions of the original 101 BASIC
+games converted into the Microsoft dialect. The book reached the stores in 1978
+and it became the first million-selling computer book. Later packages would also
+have gaming as an introductory focus. On the business-focused CP/M computers
+which soon became widespread in small business environments, Microsoft BASIC
+(MBASIC) was one of the leading applications.
+Visual Basic
+In 1991 Microsoft introduced Visual Basic, an evolutionary development of
+QuickBasic. It included constructs from that language such as block-structured
+control statements, parameterized subroutines, and optional static typing, as
+well as object-oriented constructs from other languages. An important driver for
+the development of Visual Basic was as the new macro language for Microsoft
+Excel, a spreadsheet program. To the surprise of many at Microsoft who still
+initially marketed it as a language for hobbyists, the language came into
+widespread use for small custom business applications. While many advanced
+programmers still scoffed at its use, VB met the needs of small businesses
+efficiently wherever ease of development was more of a concern than processing
+speed.
+By that time, computers running Windows 3.1 had become fast enough that many
+business-related processes could be completed "in the blink of an eye" even
+using a "slow" language, as long as large amounts of data were not involved.
+Eventually, during the lengthy lifetime of VB3, knowledge of Visual Basic had
+become a marketable job skill. Microsoft also produced VBScript in 1996 and
+Visual Basic .NET in 2001. The latter has essentially the same power as C# and
+Java but with syntax that reflects the original Basic language.
+Three modern Basic variants: Mono Basic, OpenOffice.org Basic and Gambas
+Post-1990 versions and dialects
+Many other BASIC dialects have also sprung up since 1990. Modern commercial
+incarnations include PureBasic, PowerBASIC, Xojo, Monkey X and True BASIC (the
+direct successor to Dartmouth BASIC from a company controlled by Kurtz). Several
+web-based simple BASIC interpreters also now exist. Versions of BASIC have been
+showing up for use on smartphones and tablets. Applications for some mobile
+computers with proprietary OS (CipherLab) can be built with programming
+environment based on BASIC.
+
+
