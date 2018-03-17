@@ -1,13 +1,13 @@
 import notes
 import tuesHistory
-import osb
+import osborn
 import sys
 import time
 
 def write():
     print("Press '1' to view Osborne 1's history. \n\
 Press '2' to view BASIC's history. \n\
-Press '3' to view TUES's history. \n\
+Press '3' to view TUES' history. \n\
 Press '4' to view Game Boy's history. \n\
 Press '5' to type your notes. \n\
 If you want to exit the system\n\
@@ -31,7 +31,7 @@ def runMain():
         i = again(i, a)
     else:
         if i == '1':
-            osb.run()
+            osborn.run()
             print()
             write()
         elif i == '2':
