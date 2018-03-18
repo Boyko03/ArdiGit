@@ -24,7 +24,7 @@ def run():
         i = again(i, a)
     else:
         if i == '1':
-            a = open("Osborn 1.txt", 'r')
+            a = open("Osborn1.txt", 'r')
             print(a.read(), '\n')
             write()
         elif i == '2':
