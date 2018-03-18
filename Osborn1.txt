@@ -1,0 +1,4 @@
+The Osborne 1 was the first commercially successful portable microcomputer,
+released on April3, 1981, by Osborne Computer Corporation. It weighed 10.7 kg (24.5 lb),
+cost US$1,795, and ran the CP/M 2.2 operating system. Powered directly from a mains socket
+as it had no on-board battery, it was still classed as a portable device since it could be hand carried when packed.
